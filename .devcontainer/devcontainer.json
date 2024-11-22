@@ -1,0 +1,28 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "hostRequirements": {
+        "cpus": 2
+    },
+    "waitFor": "onCreateCommand",
+    "updateContentCommand": "",
+    "postCreateCommand": "",
+    "postAttachCommand": {
+        "server": "npx --yes live-server docs"
+    },
+    "customizations": {
+        "codespaces": {
+            "openFiles": [
+                "docs/index.html"
+            ]
+        }
+    },
+    "portsAttributes": {
+        "8080": {
+            "label": "Application",
+            "onAutoForward": "openPreview"
+        }
+    },
+    "forwardPorts": [
+        8080
+    ]
+}
