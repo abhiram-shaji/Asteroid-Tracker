@@ -1,0 +1,19 @@
+{
+  "name": "dgl213-module-3",
+  "version": "1.0.0",
+  "description": "A project for DGL 213 Module 3 based on code developed by The Coding Train",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "The Coding Train",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
